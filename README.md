@@ -1,1 +1,45 @@
-# fitness-app-spring-microservices
+# AI-Powered Fitness Recommendation Platform
+
+# Overview
+
+AI-Powered Fitness Recommendation Platform is a microservices-based fitness application designed to provide personalized workout plans and track user fitness activities. The system integrates artificial intelligence to generate workout recommendations based on user goals, fitness history, and preferences.
+
+The application demonstrates modern backend architecture using microservices, secure authentication, asynchronous communication, and AI integration.
+
+# Key Features
+
+* User registration and authentication
+
+* Workout creation and tracking
+
+* AI-generated workout recommendations
+
+* Microservices-based architecture
+
+* Event-driven communication between services
+
+* API Gateway for centralized routing
+
+* Service discovery for dynamic scaling
+
+* Centralized configuration management
+
+# System Architecture
+
+```text
+Client (React)
+      │
+API Gateway
+      │
+Service Discovery
+      │
+-----------------------------
+|  User Service             |
+|  Workout Service          |
+|  AI Recommendation Service|
+-----------------------------
+      │
+Message Broker (RabbitMQ)
+      │
+Database
+```
