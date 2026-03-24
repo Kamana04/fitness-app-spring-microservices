@@ -43,3 +43,28 @@ Message Broker (RabbitMQ)
       │
 Database
 ```
+
+# Tech Stack
+# Backend
+* Java
+* Spring Boot
+* Spring Cloud (Eureka, API Gateway)
+* REST APIs
+# Frontend
+* React.js
+# Messaging
+* RabbitMQ
+* Database
+* MySQL
+
+# Microservices Overview
+# 1. User Service
+* Handles user registration and profile management
+# 2. Workout Service
+* Manages workout data and user activity tracking
+# 3. AI Recommendation Service
+* Generates personalized workout plans based on user behavior
+# 4. API Gateway
+* Routes client requests to appropriate services
+# 5. Service Discovery (Eureka)
+* Enables dynamic service registration and discovery
